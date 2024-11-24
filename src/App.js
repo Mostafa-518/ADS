@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
 import './App.css';
-import {Header, Container, Footer, Projects} from './sections'
+import {Header, Container, Footer, ProjectSection} from './sections'
 import {Hero} from './component';
 
 
@@ -12,7 +12,7 @@ const App = () => {
   <Header/>
   <Container>
    <Hero/>
-   <Projects/>
+   <ProjectSection/>
   </Container>
   <Footer/>
   </>
