@@ -1,8 +1,7 @@
 import "./Hero.css";
 import React from "react";
 import HeroData from "../../Data/HeroData";
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
+
 
 const Hero = () => {
   const HeroCards = HeroData.map((project) => {

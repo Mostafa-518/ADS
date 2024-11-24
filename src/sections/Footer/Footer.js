@@ -5,7 +5,9 @@ import { NavItem } from "component";
 
 const Footer = () => {
   return (
-    <div className="navbar navbar-expand-md my-4 py-2">
+    <>
+    <hr style={{border: "2px solid black", margin:"0", opacity:"black"}}/>
+    <div className="navbar navbar-expand-md">
       <div className="container text-align-center justify-content-center">
         
           <ul className="w-50 navbar-nav justify-content-around">
@@ -27,6 +29,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+    </>
     
   );
 };

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './Header.css'
 import logo from "../../assets/images/logo.jpg";
 import { NavItem } from "component";
@@ -8,9 +9,9 @@ const Header = () => {
     <>
       <div className="navbar navbar-expand-md mb-2 py-2">
         <div className="container">
-          <a href="#" className="navbar-brand">
-            <img style={{ maxWidth: 180 }} src={logo} alt="" />
-          </a>
+          <Link to="/" className="navbar-brand w-25">
+            <img style={{ maxWidth: "100%", objectFit:"cover", objectPosition:"center"}} src={logo} alt="" />
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -23,29 +24,29 @@ const Header = () => {
             <ul className="navbar-nav ms-auto">
               
                 <NavItem>
-                <a href="#hero" className="nav-link">
+                <Link to="/" className="nav-link">
                   Home
-                </a>
+                </Link>
                 </NavItem>
               <NavItem>
-              <a href="#features" className="nav-link">
+              <Link to="/project" className="nav-link">
                   Projekte
-                </a>
+                </Link>
               </NavItem>
               <NavItem>
-              <a href="#faq" className="nav-link">
+              <Link to="/Entwürfe" className="nav-link">
                   Entwürfe
-                </a>
+                </Link>
               </NavItem>
               <NavItem>
-              <a href="#faq" className="nav-link">
+              <Link to="/Portfolio" className="nav-link">
                   Portfolio
-                </a>
+                </Link>
               </NavItem>
               <NavItem>
-              <a href="./index-ar.html" className="nav-link">
+              <Link to="/Kontakt" className="nav-link">
                   Kontakt
-                </a>
+                </Link>
               </NavItem>
             </ul>
           </div>
