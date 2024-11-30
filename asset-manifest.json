@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/ADS-frontend/static/css/main.fd3e0eec.css",
+    "main.js": "/ADS-frontend/static/js/main.e4fc3b0c.js",
+    "static/media/1.1.jpg": "/ADS-frontend/static/media/1.1.ede06c81641bfa9c0f71.jpg",
+    "static/media/2.0.jpg": "/ADS-frontend/static/media/2.0.6bd9246bdc03d243b4ea.jpg",
+    "static/media/1.0.jpg": "/ADS-frontend/static/media/1.0.36ec98dd1e0bc0fd043d.jpg",
+    "static/media/3.0.jpg": "/ADS-frontend/static/media/3.0.7f92506a633addd16db8.jpg",
+    "static/media/slids11.jpg": "/ADS-frontend/static/media/slids11.3477382bc9bcb3536ed4.jpg",
+    "static/media/4.0.jpg": "/ADS-frontend/static/media/4.0.7a15ca2eb54353c93e1a.jpg",
+    "static/media/4.1.jpg": "/ADS-frontend/static/media/4.1.5324ec902ae5a21aa36d.jpg",
+    "static/media/5.3.jpg": "/ADS-frontend/static/media/5.3.d563f6fab71721630ba6.jpg",
+    "static/media/2.4.jpg": "/ADS-frontend/static/media/2.4.efecb1aac0b6bfc5eae6.jpg",
+    "static/media/5.5.jpg": "/ADS-frontend/static/media/5.5.508f1f5d3e5447bc85b8.jpg",
+    "static/media/3.2.jpg": "/ADS-frontend/static/media/3.2.475ed13944d3572f3b14.jpg",
+    "static/media/5.4.jpg": "/ADS-frontend/static/media/5.4.499ca1d5998b832d004e.jpg",
+    "static/media/2.3.jpg": "/ADS-frontend/static/media/2.3.31a4adef1008356713ce.jpg",
+    "static/media/3.3.jpg": "/ADS-frontend/static/media/3.3.6f9c7da79cd1bc2aa01f.jpg",
+    "static/media/3.1.jpg": "/ADS-frontend/static/media/3.1.57472fcb31bc0679dbbb.jpg",
+    "static/media/3.4.jpg": "/ADS-frontend/static/media/3.4.f38c603c32921fcd27cf.jpg",
+    "static/media/5.0.jpg": "/ADS-frontend/static/media/5.0.809e1063b3747cceb3c4.jpg",
+    "static/media/5.1.jpg": "/ADS-frontend/static/media/5.1.1899638d88f4bc9b525d.jpg",
+    "static/media/5.2.jpg": "/ADS-frontend/static/media/5.2.a806ccf79cf6bcf512ce.jpg",
+    "static/media/2.2.jpg": "/ADS-frontend/static/media/2.2.ecf39771f68161177b07.jpg",
+    "static/media/slids3.jpg": "/ADS-frontend/static/media/slids3.0ccbf103af7ab6f57a15.jpg",
+    "static/media/slids4.jpg": "/ADS-frontend/static/media/slids4.ff7ab0e12532e9913b03.jpg",
+    "static/media/slids2.jpg": "/ADS-frontend/static/media/slids2.20123f4144383056b5c3.jpg",
+    "static/media/slids9.jpg": "/ADS-frontend/static/media/slids9.9c249c315994ee23ad29.jpg",
+    "static/media/slids8.jpg": "/ADS-frontend/static/media/slids8.13764ea8716a93a1400f.jpg",
+    "static/media/slids10.jpg": "/ADS-frontend/static/media/slids10.897f99138b44e2db97ef.jpg",
+    "static/media/logo.jpg": "/ADS-frontend/static/media/logo.acbadc0c1ecf9e7cbcb1.jpg",
+    "static/media/BauhausRegular.ttf": "/ADS-frontend/static/media/BauhausRegular.5bf74b8a714edb9a851d.ttf",
+    "static/media/portfolio.jpg": "/ADS-frontend/static/media/portfolio.fd41578e7ab281c69c70.jpg",
+    "index.html": "/ADS-frontend/index.html",
+    "main.fd3e0eec.css.map": "/ADS-frontend/static/css/main.fd3e0eec.css.map",
+    "main.e4fc3b0c.js.map": "/ADS-frontend/static/js/main.e4fc3b0c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd3e0eec.css",
+    "static/js/main.e4fc3b0c.js"
+  ]
+}
