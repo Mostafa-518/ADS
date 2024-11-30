@@ -1,0 +1,81 @@
+.box{
+  width: 100%;
+  height: 100vh;
+}
+
+
+.project-container {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-item {
+  width: 50%;
+  text-align: center;
+}
+
+.project-image {
+  overflow: hidden;
+  position: relative;
+}
+
+.project-image .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: all 0.5s;
+  z-index: 1;
+}
+
+.project-image:hover .overlay {
+  opacity: 1;
+}
+
+.project-image .overlay .btns {
+  width: 10%;
+  text-align: end;
+  position: absolute;
+  top: 5px;
+  right: 5%;
+  transform: translateY(10px);
+  transition: all 1s;
+  opacity: 0;
+  padding: 5px;
+}
+
+.project-image:hover  .overlay .btns {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.project-image .overlay .btns svg {
+  margin: 10px;
+  text-align: center;
+  width: 45px;
+  height: 45PX;
+  border: none;
+  
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.position-bottom {
+  margin-top: 30%;
+}
+
+.Horizontal {
+  width: 100%;
+  text-align: center;
+}

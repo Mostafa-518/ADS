@@ -1,0 +1,42 @@
+.hero-text {
+  width: 100%;
+  height: 100%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.hero-title {
+  width: 100%;
+  height: 20%;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.hero-subtitle {
+  text-align: justify;
+  width: 100%;
+  height: 80%;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 28px;
+  margin: 0;
+}
+.hero-subtitle:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+.Square {
+  padding-bottom: 24px;
+  aspect-ratio: 1/1;
+  text-align: center;
+}
+
+.Square img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
