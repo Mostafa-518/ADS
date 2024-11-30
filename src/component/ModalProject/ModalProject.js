@@ -9,7 +9,7 @@ function ModalProject() {
   const handleCloseModal = () => {
     setShowModal(false);
   };
-  console.log(currentImages)
+  console.log(currentImages);
   return (
     <>
       <Modal
@@ -26,7 +26,8 @@ function ModalProject() {
                 <div className="carousel-image-wrapper">
                   <img
                     className="carousel-image"
-                    src={`http://localhost:1337${image.url}`}
+                    src={image}
+                    // src={`http://localhost:1337${image.url}`}
                     alt={`slide ${index}`}
                   />
                 </div>

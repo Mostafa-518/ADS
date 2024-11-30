@@ -20,31 +20,26 @@ import project5_5 from "../../src/assets/images/Projekte/5.5.jpg";
 
 const ProjectData = [
   {
-    id: "ProjectData01",
-    title: "TextTextTextTextText",
-    description: "csdcsdcsdcdsdsdsdsadösajdnaü0fhweoüfihwe",
-    images: [project2_0, project2_2, project2_3, project2_4],
+    id: "Project01",
+    projectTitle: "TextTextTextTextText",
+    projectDescription: "csdcsdcsdcdsdsdsdsadösajdnaü0fhweoüfihwe",
+    projectImg: [project2_0, project2_2, project2_3, project2_4],
     alt: "Project 1",
-  },
-  {
-    id: "ProjectData02",
-    title: "TextTextTextTextText",
-    description: "bnjkbcjfhweoüfihwe",
-    images: [project3_0, project3_1, project3_2, project3_3, project3_4],
-    alt: "Project 2",
+    Horizontal:"false"
   },
   {
     id: "ProjectData03",
-    title: "TextTextTextTextText",
-    description: "casfaskfklasmfkleoüfihwe",
-    images: [project4_0, project4_1],
-    alt: "Project 3",
+    projectTitle: "TextTextTextTextText",
+    projectDescription: "casfaskfklasmfkleoüfihwe",
+    projectImg: [project4_0, project4_1],
+    alt: "Project03",
+    Horizontal:"false"
   },
   {
-    id: "ProjectData04",
-    title: "TextTextTextTextText",
-    description: "casfaskfklasmfkleoüfihwe",
-    images: [
+    id: "Project04",
+    projectTitle: "TextTextTextTextText",
+    projectDescription: "casfaskfklasmfkleoüfihwe",
+    projectImg: [
       project5_0,
       project5_1,
       project5_2,
@@ -52,15 +47,26 @@ const ProjectData = [
       project5_4,
       project5_5,
     ],
-    alt: "Project 4",
+    alt: "Project04",
+    Horizontal:"false"
   },
   {
-    id: "ProjectData05",
-    title: "TextTextTextTextText",
-    description: "casfaskfklasmfkleoüfihwe",
-    images: [project1_0, project1_1],
+    id: "Project05",
+    projectTitle: "TextTextTextTextText",
+    projectDescription: "casfaskfklasmfkleoüfihwe",
+    projectImg: [project1_0, project1_1],
     alt: "Project 5",
+    Horizontal: "false"
   },
+  {
+    id: "Project02",
+    projectTitle: "TextTextTextTextText",
+    projectDescription: "bnjkbcjfhweoüfihwe",
+    projectImg: [project3_0, project3_1, project3_2, project3_3, project3_4],
+    alt: "Project02",
+    Horizontal:"true"
+  },
+ 
 ];
 
 export default ProjectData;
